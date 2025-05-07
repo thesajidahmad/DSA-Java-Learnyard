@@ -6,9 +6,9 @@ public class file09_if_else_LargerInThree {
         int b = scan.nextInt();
         int c = scan.nextInt();
 
-        if(a > b && b > c){
+        if(a >= b && b >= c){
             System.out.println(a);
-        }else if(a < b && b > c){
+        }else if(a <= b && b >= c){
             System.out.println(b);
         }else{
             System.out.println(c);
